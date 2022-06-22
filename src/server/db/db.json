@@ -39,6 +39,22 @@
             "promoted": false,
             "authorId": 1,
             "likes": 10952
+        },
+        {
+            "id": 6,
+            "text": "hello world",
+            "createdAt": "2022-06-13T03:40:30.530Z",
+            "promoted": false,
+            "authorId": 5,
+            "likes": 0
+        },
+        {
+            "id": 7,
+            "text": "hello",
+            "createdAt": "2022-06-13T03:46:00.674Z",
+            "promoted": false,
+            "authorId": 5,
+            "likes": 0
         }
     ],
     "users": [
@@ -69,6 +85,13 @@
             "username": "@oprah",
             "bio": "Hi, I'm Oprah Winfrey, and I'm a Twitter bot.",
             "location": "US"
+        },
+        {
+            "id": 5,
+            "username": "@tim",
+            "displayName": "tim",
+            "location": "US",
+            "bio": "hello"
         }
     ]
 }

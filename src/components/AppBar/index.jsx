@@ -66,7 +66,7 @@ function AppBar({ title }) {
   const handleOpenTweetForm = () => setIsNewTweetFormOpen(true);
   const handleCloseTweetForm = () => setIsNewTweetFormOpen(false);
 
-  const navigateToProfile = () => navigate(`/user/${user.id}`);
+  const navigateToProfile = () => navigate(`/user/${user.username}`);
   const navigateToUserSettings = () => navigate(`/settings`);
 
   const logout = () => {
